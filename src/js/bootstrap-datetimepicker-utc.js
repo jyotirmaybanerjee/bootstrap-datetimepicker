@@ -1036,9 +1036,9 @@
 
             parseInputDate = function (inputDate) {
                 if (moment.isMoment(inputDate) || inputDate instanceof Date) {
-                    inputDate = moment(inputDate);
+                    inputDate = moment.utc(inputDate);
                 } else {
-                    inputDate = moment(inputDate, parseFormats, options.useStrict);
+                    inputDate = moment.utc(inputDate, parseFormats, options.useStrict);
                 }
                 inputDate.locale(options.locale);
                 return inputDate;
