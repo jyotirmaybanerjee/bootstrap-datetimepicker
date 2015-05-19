@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-datetimepicker-utc",
-  "main": "src/js/bootstrap-datetimepicker-utc.js",
+  "name": "bootstrap-datetimepicker",
+  "main": "src/js/bootstrap-datetimepicker.js",
   "version": "4.7.14",
   "repository": {
     "type": "git",
